@@ -265,6 +265,13 @@ footer i:hover {
 }
 
 /*the media queries*/
+@media only screen and (max-width: 991px)
+{
+    #infos .info2 {
+        margin-top: 100px;
+    }
+}
+
 @media only screen and (min-width: 976px)
 {
     footer .row {
