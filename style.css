@@ -1,8 +1,8 @@
 body {
     width: 100%;
     overflow-x: hidden;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 h1,h2 {
@@ -27,6 +27,14 @@ p {
 }
 
 /*************ID SECTION*******************/
+section {
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding: 4% 5%;
+}
+
 #hero {
     text-align: center;
     padding-top: 133px;
@@ -52,10 +60,6 @@ footer {
 /************CLASS SECTION*********************/
 
 /****NAVBAR****/
-.navbar {
-    padding: 4% 5%;
-}
-
 nav img {
     width: 240px;
 }
